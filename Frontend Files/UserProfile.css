@@ -1,0 +1,20 @@
+.Profile_outer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 100px;
+}
+.UserProfile_section
+{
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 25px;
+    height: 500px;
+    
+}
+.User_details
+{
+    color: red;
+}

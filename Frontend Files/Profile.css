@@ -1,0 +1,578 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.successmsg
+{
+    width: 400px;
+    padding: 8px 15px;
+    background-color: #b2f2bb;
+    font-size: 16px;
+    border: 1px solid #69db7c;
+    text-align: center;
+    color: #0e1133;
+    border-radius: 6px;
+}
+.common_c {
+    margin:0px 80px;
+    position:relative;
+} 
+.UserProfile_section
+{
+    margin-top: 140px;
+    box-shadow: 5px 0px 8px rgba(0,0,0,0.10);
+    height: 420px;
+    width: 470px;
+    /* padding: 10px; */
+    border-radius: 8px 8px 15px 15px;
+    /* border-bottom: 7px solid #140342; */
+    padding: 17px 0px;
+    background-color: #F4F1FE;
+    /* text-align: center; */
+}
+.profile_bg
+{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.userprofile
+{
+     height: 150px;
+     width: 150px;
+     /* background-color: red; */
+     border-radius: 50%;
+     margin-bottom: 15px;
+     overflow: hidden;
+     
+}
+.userprofile img
+{
+    width: 100%;
+}
+input[type="file"]
+{
+    display: none;
+}
+.change{
+    cursor: pointer;
+}
+.profile_img
+{
+    font-size: 17px;
+    border: none;
+    padding: 6px 24px;
+    background-color:;
+    border-radius: 5px;
+    color: #140342;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all ease .6s;
+}
+.profile_img:hover
+{
+    background-color:#140342; ;
+    color: #fff;
+}
+.user_details
+{
+    padding: 20px;
+    /* background-color: blue; */
+}
+.Username
+{
+    font-weight: 450;
+    /* color: #fff; */
+    margin-left: 15px;
+}
+.Username p{
+    font-size: 17px;
+    margin: 7px 0px;
+    color: #21225f;
+}
+
+
+.delete
+{
+    
+    padding: 5px 15px;
+    /* margin: 0px 20px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:#fff;
+    color: #000;
+    font-size: 17px;
+    font-weight:500;
+    margin: 0px 20px 0px 0px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+}
+.delete:hover
+{
+    border: 2px solid #00B0FF;
+    background-color: #00B0FF;
+    color: #fff;
+    
+
+}
+.logout
+{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f60;
+    color: #fff;
+    font-size: 17px;
+    font-weight:500;
+    border: 2px solid #f60;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.logout:hover{
+    background-color: #fff;
+    color: #f60;
+    border: 2px solid #f60;
+}
+
+/* main form profile section started */
+
+.main_form{
+    /* background-color: #00B0FF; */
+    /* margin-bottom: 200px; */
+    display: flex;
+    padding: 10px 0px;
+}
+
+.form_profile{
+    display: flex;
+    gap: 28px;
+}
+
+
+/* left_form_pm section */
+
+
+
+
+.left_form_pm ul li{
+    list-style: none;
+}
+
+.left_form_pm{
+    width: 32%;
+    height: 630px;
+    color: white;
+    padding: 5px 24px;
+    background-color: #140342;
+    border-radius: 8px;
+}
+
+.list_list_pm , 
+.list_list_pm_2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    padding: 5px 14px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.list_list_pm:hover{
+    background-color: white;
+    color: #000;
+    border-radius: 8px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.list_list_pm_2{
+    background-color: #dc3545;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.list_list_pm_2:hover{
+    /* background-color: #fff; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* left_form_pm section */
+
+
+
+/* right_form_pm section */
+
+.right_form_pm{
+    width: 100%;
+     padding: 20px 10px 40px 10px;
+    /* background-color: red; */
+    border-radius: 8px;
+    /* border: 1px solid #ced4da; */
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.head_edit_r{
+    border-bottom: 2px solid #f60;
+    padding: 14px;
+    font-size: 22px;
+    color: #21225f;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading_pict_r{
+    font-size: 18px;
+    color: rgb(124, 153, 172);
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.pic_btn_profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 68px;
+    /* background-color: #00B0FF; */
+    padding: 0px 25px;
+}
+
+.picture_r{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 28px;
+    margin-left: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
+}
+
+
+.sign_r{
+    background-color: #dc3545;
+    color: white;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -108px;
+    left: 95px;
+}
+
+.change_profile_btn{
+    margin-top: 24px;
+    font-size: 18px;
+    border: none;
+    padding: 6px 24px;
+    background-color: rgba(6, 106, 201, 0.1);
+    border-radius: 8px;
+    color: #066ac9;
+    cursor: pointer;
+}
+
+.change_profile_btn:hover{
+    color: white;
+    background-color: #066ac9;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.form_p{
+    margin: 20px 30px;
+}
+.user_info
+{
+    float: left;
+    
+   
+}
+.user_information
+{
+margin-left: 30px;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #0e1133;
+    font-weight: 500;
+}
+.add_section{
+    margin-top: 30px;
+    
+}
+.add_section .add_head{
+    font-size: 18px;
+    color: #0e1133;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.about_feild
+{
+    font-size: 18px;
+    color: #0e1133;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.add_inputfeild
+{
+    width: 100%;
+    font-size: 17px;
+    background-color: #fff;
+    color: #404448;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid #dde0e3;
+    padding: 0 23px;
+    height: 56px;
+    margin-bottom: 5px;
+}
+.add_detail{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.add_details{
+    width: 280px;
+    font-size: 17px;
+    background-color: #fff;
+    color: #404448;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid #dde0e3;
+    padding: 0 23px;
+    height: 56px;
+}
+.details_sub
+{
+    margin-bottom: 12px;
+    color: #7C99AC;
+}
+.full_name_head_r{
+    font-size: 16px;
+    color: #7C99AC;
+    margin-bottom: 12px;
+    width: 450px;
+}
+.line_horizontal{
+    height: 2px;
+    border-bottom: 2px solid #ced4da;
+    margin-top: 40px;
+}
+.input_div{
+    display: flex;
+    gap: 12px;
+}
+
+.inputfeild{
+    width: 450px;
+    font-size: 17px;
+    background-color: #fff;
+    color: #404448;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid #dde0e3;
+    padding: 0 23px;
+    height: 56px;
+}
+input:focus{
+    outline: 2px solid #0e1133; 
+    font-weight: 500;
+
+}
+
+textarea:focus{
+    outline: 2px solid #0e1133; 
+    font-weight: 500;
+}
+
+.user_email_r{
+    display: flex;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+.simple_user_r{
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 1px solid #dde0e3;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #e9ecef;
+    margin-right: -4px;
+    border-right: none;
+}
+
+.input_username_class{
+    width: 450px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #404448;
+    font-weight: 400;
+    padding: 10px 14px;
+    /* line-height: 1.5; */
+    border-radius: 8px;
+    border: 1px solid #dde0e3;
+}
+
+.input_email_class{
+    width: 450px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #404448;
+    font-weight: 400;
+    padding: 10px 14px;
+    /* line-height: 1.5; */
+    border-radius: 6px;
+    border: 1px solid #dde0e3;
+}
+
+.phone_loc_r{
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+}
+
+.textarea_r{
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 15px 22px;
+    transition: all 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: #404448;
+  
+}
+
+.about_me_r{
+    margin-top: 42px;
+}
+
+.brief_r{
+    margin-top: 4px;
+    font-size: 16px;
+    color: #6c757d;
+    margin-left: 8px;
+}
+
+.education_r{
+    margin-top: 24px;
+}
+
+.input_educ_r{
+    width: 100%;
+}
+
+.input_educ_r{
+    font-size: 16px;
+    background-color: #fff;
+    color: #404448;
+    font-weight: 400;
+    padding: 10px 14px;
+    line-height: 1.5;
+    border-radius: 6px;
+    border: 1px solid #dde0e3;
+    margin-bottom: 16px;
+}
+
+.add_more_btn{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 22px;
+    font-size: 16px;
+    border: none;
+    background-color: #dddee0;;
+    border-color: #dddee0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.add_more_btn:hover{
+    background-color:#d0d2d4; 
+}
+
+.save_change_btn{
+    padding: 8px 28px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #f60;
+    border-radius: 6px;
+    position: relative;
+    left: 750px;
+    cursor: pointer;
+}
+
+.save_change_btn:hover{
+    background-color: #e65c00;
+}
+
+
+
+
+/* right_form_pm section */
+
+/* main form profile section ended */
+
+
+
+
+
+/* if(isset($_POST['upload']))
+{   
+    $image=$_FILES['image']['name']; 
+    $upload="UPDATE `user_profile` SET  `image`='$image' WHERE Email='saurabh@gmial.com'";
+    $upquery=mysqli_query($connect,$upload);
+    $temName=$_FILES['img']['temp_name'];
+    $UploadDir="/Profile Photos/";
+    if($upquery)
+    {
+        move_uploaded_file($temName,$UploadDir.$image);
+        echo"Image Uploaded Sucessfully";
+    }
+    else{
+        echo"Image not Uploaded";
+    }
+
+    
+} */
+
+
+$fetchQuery="SELECT * FROM user_profile";
+$fetchresult=mysqli_query($connect,$fetchQuery);
+$fetchdata=mysqli_fetch_assoc($fetchresult);
+
+$showdate=$fetchdata['Date'];
+
+if($fetchdata['PhoneNo']="")
+{
+    $insertQuery="INSERT INTO `user_profile`(`PhoneNo`, `Country`, `Gender`, `Date`, `Address`, `City`, `State`, `PostalCode`, `AboutMe`, `Education`, `Skill`, `image`) VALUES ('$PhoneNo','$country','$gender','$dateofbirth','$address','$city','$state','$postcode','$aboutme','$education','$skill')";
+
+    $insertFire=mysqli_query($connect,$insertQuery);
+
+    if($insertFire)
+    {
+        echo'<script> alert("Insert Run"); <?script>';
+
+    }
+    else
+    {
+        echo'<script> alert("Insert not Run"); <?script>';
+    }
+}
+else
+{

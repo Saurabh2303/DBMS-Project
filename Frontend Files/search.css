@@ -1,0 +1,45 @@
+.user_search_input 
+{
+    padding: 60px 80px 0px 80px;
+    /* background-color: red; */
+}
+.user_search_input .result_show
+{
+    color: #21225f;
+}
+.search_line
+{
+    height: 1px;
+    background-color: #7C99AC;;
+    width: 60%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+
+<?php while($data) {
+    ?>
+    
+    
+    <?php } ?>
+
+
+    <?php echo $data['course_title'] ?>
+
+<?php echo $data['course_category'] ?>
+
+<?php echo $data['instructor_name'] ?>
+
+<?php echo $data['course_price'] ?>
+
+<?php echo $data['fake_price'] ?>
+
+
+<img src="<?php echo "../Images/". $data['course_img'] ?>" alt="">
+<?php while($searchres){ ?>
+
+    
+
+
+    <?php }?>
+    
