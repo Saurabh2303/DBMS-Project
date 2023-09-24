@@ -23,4 +23,7 @@ In this repository, you will find all the code and resources related to our onli
 To get started with this project, you can clone this repository to your local development environment. Make sure you have XAMPP or a similar server environment set up to host the website locally. 
 Do the necessary connection with database and you are good to go.
 
+**Video Link of The Project** : 
+[Database Project Video : Online Course Selling Website](https://youtu.be/eqRwWyW9DnE?si=BCF3VVbzCxVCY_oB)
+
 **Thank you** for your interest in our online course selling website project. We hope this repository serves as a valuable resource for both learning and collaboration. Happy coding! 
